@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { useFetchBookByIdQuery } from '../../redux/features/book/bookApi';
-import { addtoCart } from '../../redux/features/cart/cartSlice'; // ✅ adjust path as needed
+import { addtoCart } from '../../redux/Features/cart/CartSlice'; // ✅ adjust path as needed
 import { FiShoppingCart } from 'react-icons/fi';
 import { getimgurl } from '../../utils/getimgurl';
 
